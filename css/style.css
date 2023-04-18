@@ -1,0 +1,278 @@
+body{
+    font-family: sans-serif;
+}
+/* header styling starts here */
+/* header styling starts here */
+/* header styling starts here */
+
+
+.nav-one .nav-link {
+    color: black !important;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.nav-one .nav-link:hover {
+    border-bottom: 2px solid #9B9B9B;
+}
+
+.nav-two {
+    background-color: #4CA2AD;
+    border: 2px solid white;
+    margin-top: -18px;
+
+
+
+}
+
+.nav-two .nav-link {
+
+    color: white !important;
+    font-size: 16px;
+    margin-right: 30px;
+
+
+}
+
+.nav-two .navbar-brand {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.nav-two .nav-item {
+    border-top: none;
+    /* border: 1px solid white; */
+
+    padding: 10px 0px;
+    padding-right: 20px;
+    list-style: none;
+    margin: 0px;
+}
+
+/* .nav-two .nav-link :hover{
+    border-bottom: 2px solid  #9B9B9B;
+} */
+
+
+/* footer styling starts here */
+/* footer styling starts here */
+/* footer styling starts here */
+
+.footer {
+    background: #0D2934;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.footer-icon a {
+    font-size: 18px;
+    /* color: #fff; */
+    color: #0D2934;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* background: rgba(255,255,255,.1); */
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.footer-icon {
+    margin-left: 130px;
+}
+
+.footer-1 {
+    border-bottom: 1px solid white;
+}
+
+/* home page styling starts here */
+/* home page styling starts here */
+/* home page styling starts here */
+.hero-section {
+
+    background: url('../images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+}
+
+.hero-section p {
+    line-height: 0.5;
+}
+
+.sub {
+    padding-top: 30px;
+
+}
+
+.sub p {
+    padding: 30px 20px;
+}
+
+.p2 span {
+    line-height: 0;
+    font-size: 14px;
+}
+
+.para .search {
+    outline: none;
+    box-shadow: none;
+}
+
+.top {
+    font-size: 12px;
+}
+
+.bottom {
+    font-size: 16px;
+}
+
+.middle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.head a {
+    color: gray;
+    text-decoration: none;
+   
+
+
+}
+
+.image .img {
+    width: 100%;
+    
+}
+
+.image .img img {
+   
+    width: 100%;
+    object-fit: cover;
+
+}
+.last{
+    background-color: #F5F5F5;
+    border: 1px solid rgb(230, 217, 217);
+}
+
+.last a{
+    text-decoration: none;
+   
+}
+.clip{
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    background-color: #E0E0E0;
+}
+.one {
+    background-color: #F7F7F7;
+    border: 1px solid rgb(230, 217, 217);
+
+}
+.two{
+    border: 1px solid rgb(230, 217, 217);
+
+}
+
+
+/* about page styling starts here */
+/* about page styling starts here */
+/* about page styling starts here */
+/* about page styling starts here */
+
+.about-hero{
+    background: url('../images/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+}
+.about1{
+    background-color:    #FAFAFA;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* aims page styling starts here */
+/* aims page styling starts here */
+/* aims page styling starts here */
+/* aims page styling starts here */
+
+.just-para{
+    text-align: justify;
+}
+.aim1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.aim1 a:hover{
+    color: #4CA2AE;
+}
+.aim-para{
+    border: 1px solid rgb(230, 217, 217);
+}
+.aim-para1{
+    border: 1px solid rgb(230, 217, 217);
+    background-color: #F2F2F2;
+    color: rgb(111, 110, 110);
+
+}
+
+
+
+
+
+
+
+
+
+/* media quierie starts here */
+/* media quierie starts here */
+/* media quierie starts here */
+
+@media (max-width:515px) {
+    .logo_image img {
+        width: 80%;
+        height: 50px;
+    }
+
+}
+
+@media (max-width:1050px) {
+    .nav-two .nav-link {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .footer-icon {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media (max-width:990px) {
+    .mqt {
+        padding-bottom: 50px;
+
+    }
+
+}

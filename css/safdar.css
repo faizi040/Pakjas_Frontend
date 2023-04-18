@@ -1,0 +1,510 @@
+/* Header Styling */
+/* Header Styling */
+/* Header Styling */
+/* Header Styling */
+.down-header {
+    background-color: rgb(76, 162, 173);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 70px;
+    box-sizing: border-box;
+
+
+}
+
+.bar-items {
+    border-right: 1px solid white;
+    list-style: none;
+    height: 70px;
+    padding-left: 25px;
+    padding-top: 24px;
+    /* border-bottom: 5px solid white; */
+}
+
+.bar-items:hover a {
+    color: black;
+
+}
+
+.bar-items li:hover {
+    color: black;
+    cursor: pointer;
+
+}
+
+.bar-items a {
+    text-decoration: none;
+
+    width: 100%;
+    ;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+}
+
+.down-header li ul {
+
+
+    position: absolute;
+    min-width: 227px;
+    height: 120px;
+    padding-top: 4px;
+    border-radius: 4px;
+    background-color: white;
+    list-style: none;
+    padding-left: 0px;
+    top: 127px;
+
+    display: none;
+}
+
+#dropdown1 {
+    z-index: 3;
+}
+
+.down-header li ul li {
+    display: block !important;
+    color: black !important;
+    padding: 1px 0px;
+    padding-left: 6px;
+    width: 100%;
+
+}
+
+.down-header li ul li a {
+    display: block !important;
+    color: black !important;
+
+}
+
+.down-header li ul li:hover {
+
+    background-color: rgb(208, 208, 208);
+
+}
+
+#dropdown2 {
+    min-width: 160px;
+    color: black;
+    box-sizing: border-box;
+    list-style: none;
+    height: 100px;
+    left: 600px;
+    position: absolute;
+}
+
+.drop-btn {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 16px;
+    background-color: rgb(76, 162, 173);
+    padding-top: 7px;
+    padding-bottom: 15px;
+    border: none;
+    color: white;
+}
+
+.btns {
+    padding-left: 12px;
+    padding-top: 15px;
+}
+
+/* @media only screen and (min-width:1000px){     
+.fixing{
+    position: fixed;
+    width: 100%;
+
+   
+} 
+
+}  */
+@media only screen and (min-width: 327px) and (max-width: 1000px) {
+
+
+    .down-header {
+        display: none;
+        height: 490px;
+    }
+
+    .bar-items {
+        background-color: rgb(76, 162, 173);
+        border-bottom: 1px solid white;
+
+    }
+
+    #dropdown1 {
+        top: 135px;
+    }
+
+    #dropdown2 {
+        top: 342px;
+        position: absolute;
+        left: 13px;
+    }
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 327px) {
+    .down-header {
+        display: none;
+        height: 490px;
+    }
+
+    .bar-items {
+        background-color: rgb(76, 162, 173);
+        border-bottom: 1px solid white;
+
+    }
+
+    #dropdown1 {
+        top: 160px;
+    }
+
+    #dropdown2 {
+        position: absolute;
+        top: 375px;
+        left: 13px;
+    }
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+    #dropdown2{
+        left: 500px;
+    }
+}
+#line{
+    margin: 2px;
+    height: 3px;
+}
+@media only screen and (max-width: 1000px){
+    .setresp{
+        display: none !important;
+    }
+}
+@media  screen and (min-width:991px) and (max-width:1000px){
+    #setresp{
+        display: block !important;
+        position: absolute;
+        right: 13px;
+        /* top: 10px; */
+    }
+}
+
+
+/* Involve page styling starts here */
+/* Involve page styling starts here */
+/* Involve page styling starts here */
+/* Involve page styling starts here */
+#involve2 a{
+    color: black;
+}
+#involve2 a:hover{
+    color:  green;
+}
+
+.backimg img {
+    width: 100%;
+
+}
+
+.topwrite {
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    color: white;
+}
+
+.topwrite h1 {
+    margin-bottom: 20px;
+
+}
+
+.topwrite p {
+    font-size: 20px;
+    ;
+}
+
+.involvewrite {
+    margin: 30px 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#involve1 h2 {
+    margin-bottom: 18px;
+    font-size: 28px;
+}
+
+#involve1 p {
+    text-align: justify;
+}
+
+.involvebuttons {
+    margin-left: 165px;
+    margin-top: 20px;
+}
+
+.involvebuttons button {
+    display: block;
+    width: 370px;
+    height: 65px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 216, 216);
+    text-align: left;
+    padding-left: 40px;
+    font-size: 17px;
+
+}
+
+.involvebuttons button:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    .topwrite {
+        position: absolute;
+
+        top: 140px;
+        left: 40px;
+    }
+
+    .topwrite h1 {
+        margin-bottom: 5px;
+
+    }
+
+    .involvewrite {
+        margin: 30px 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+}
+@media only screen and (min-width: 326px) and (max-width: 327px){
+    .topwrite{
+        top: 160px !important;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .topwrite {
+
+        position: absolute;
+
+        top: 82px;
+        left: 17px;
+    }
+
+    .topwrite h1 {
+        margin-bottom: -4px;
+
+    }
+
+    .topwrite p {
+        line-height: 25px;
+    }
+
+    .involvewrite {
+        margin: 30px 17px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .involvebuttons {
+        margin-left: 0px;
+    }
+
+    .involvebuttons button {
+        width: 310px;
+    }
+}
+
+@media only screen and (min-width: 325px) and (max-width: 350px) {
+    .topwrite {
+
+        position: absolute;
+
+        top: 82px;
+        left: 17px;
+    }
+
+    .topwrite h1 {
+        margin-bottom: 0px;
+        font-size: 23px;
+
+    }
+
+    .topwrite p {
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .involvewrite {
+        margin: 30px 17px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .involvebuttons {
+        margin-left: 0px;
+    }
+
+    .involvebuttons button {
+        width: 195px;
+        padding-left: 17px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 325px) {
+    .topwrite {
+
+        position: absolute;
+
+        top: 111px;
+        left: 17px;
+    }
+
+    .topwrite h1 {
+        margin-bottom: 0px;
+        font-size: 23px;
+
+    }
+
+    .topwrite p {
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .involvewrite {
+        margin: 30px 17px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .involvebuttons {
+        margin-left: 0px;
+    }
+
+    .involvebuttons button {
+        width: 195px;
+        padding-left: 17px;
+    }
+}
+
+.inpressbox {
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+.inpressbox p {
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.inpressbox button {
+    height: 45px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#btn1 {
+    width: 50%;
+}
+
+#btn2 {
+    float: right;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .topwrite{
+        display: none !important;
+    }
+    .inpressbox p {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .inpressbox button {
+        height: 45px;
+        display: block;
+    }
+
+    #btn1 {
+        width: 100%;
+    }
+
+    #btn2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+#navdnbtn {
+    width: 100%;
+    height: 55px;
+    font-size: 22px;
+    background-color: rgb(48, 128, 48);
+    color: white;
+   
+    border: none;
+    border-bottom: 6px solid rgb(35, 255, 1);
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    #navdnbtn {
+
+        display: none;
+    }
+
+}
+
+
+
+.submission{
+    box-shadow: 3px 3px 3px silver;
+    padding: 8px;
+}
+.submission h2{
+    text-align: center;
+}
+.submission label{
+    display: block;
+    margin-bottom: 10px;
+}
+.submission input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#submbtn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.submission button{
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(10, 158, 10);
+    border: 1px solid black;
+    color: white;
+    font-size: 18px;
+}
+.submission a{
+    color: rgb(10, 158, 10);
+}
+
+
+
+
+
