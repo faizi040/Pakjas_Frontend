@@ -37,7 +37,7 @@
         <p>2022 Pakistan Journal of Agricultural Sciences, Faisalabad, Pakistan. All rights reserved.</p>
       </div>
       <div class="col-md-6 col-sm-12 col-12 my-3 ms-auto">
-        <p>Developed By: MicrologicX</p>
+        <p>Developed By: Faizi040</p>
       </div>
     </div>
 
